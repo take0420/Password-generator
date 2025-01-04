@@ -15,7 +15,7 @@
     const letters = 'abcdefghijklmnopqrstuvwxyz';
     let password = '';
 
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < slider.value; i++) {
       password += letters[Math.floor(Math.random() * 26)];
     }
 
