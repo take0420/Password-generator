@@ -14,9 +14,10 @@
     const result = document.getElementById('result');
     const letters = 'abcdefghijklmnopqrstuvwxyz';
     let password = '';
+    const seed = letters + letters.toUpperCase();
 
     for (let i = 0; i < slider.value; i++) {
-      password += letters[Math.floor(Math.random() * 26)];
+      password += seed[Math.floor(Math.random() * 52)];
     }
 
     result.textContent = password;
