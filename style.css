@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 
 main {
   width: 380px;
@@ -21,18 +21,17 @@ p {
 button {
   all: unset;
   width: 100%;
-  color: #fff;
   background: #08c;
   border-radius: 8px;
+  color: #fff;
   text-align: center;
   padding: 12px 0;
   margin-top: 16px;
-  margin-bottom: 16px;
   cursor: pointer;
 }
 
 button:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 button:active {
@@ -43,11 +42,17 @@ fieldset {
   border: 1px dashed #aaa;
   border-radius: 8px;
   padding: 16px;
-  margin-top: 8px;
+  margin-top: 16px;
   display: flex;
   justify-content: space-between;
 }
 
 legend {
   padding: 0 8px;
+}
+
+#password-length {
+  width: 24px;
+  display: inline-block;
+  text-align: center;
 }

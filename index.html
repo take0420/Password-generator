@@ -9,27 +9,27 @@
   </head>
   <body>
     <main>
-      <p>rltahofjowa</p>
+      <p>asdfghjk</p>
 
-      <button>パスワード生成</button>
+      <button>パスワードを生成</button>
 
       <fieldset>
         <legend>オプション</legend>
         <label>
-          長さ(8)
-          <input type="range" />
+          長さ(<span id="password-length">8</span>)
+          <input type="range" id="slider" min="8" max="24" value="8" />
         </label>
-
         <label>
           数字
           <input type="checkbox" />
         </label>
-
         <label>
           記号
           <input type="checkbox" />
         </label>
       </fieldset>
     </main>
+
+    <script src="main.js"></script>
   </body>
 </html>
