@@ -16,7 +16,7 @@
     const letters = 'abcdefghijklmnopqrstuvwxyz';
     const numbers = '0123456789';
     let password = '';
-    const seed = letters + letters.toUpperCase();
+    let seed = letters + letters.toUpperCase();
 
     if (numbersCheckbox.checked) {
       seed += numbers;
